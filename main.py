@@ -67,7 +67,7 @@ def analyze_image(image_path):
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": "I will upload some question. I need you give me the answer"},
+                        {"type": "text", "text": "Give me the answer of the questions contained in the uploaded picture"},
                         {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{base64_image}"}},
                     ],
                 }
