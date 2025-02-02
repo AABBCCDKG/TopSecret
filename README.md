@@ -1,18 +1,8 @@
 # TopSecret
 
-## How to use
 
-```sh
-git clone https://github.com/AABBCCDKG/TopSecret.git
-pip install -r requirements.txt
-
-# 📄 Google Docs + OpenAI 自动更新
-
-本项目用于在 **Google Docs** 共享文档中实时写入 **GPT 解析结果**，适用于自动化屏幕分析、文本生成等任务。
-
----
-
-## **🚀 1. 创建 Google Cloud 项目**
+## 配置环境
+###创建 Google Cloud 项目##
 1. **打开** [Google Cloud Console](https://cloud.google.com/) 并 **创建新项目**（或选择已有项目）。
 2. 进入 **"API 和服务"** > **"启用 API 和服务"**。
 3. 搜索并启用：
@@ -50,4 +40,11 @@ pip install -r requirements.txt
 CREDENTIALS_FILE = "your_google_credentials.json"  # 替换为你的 JSON 凭证文件路径
 DOC_ID = "your_google_doc_id"  # 替换为你的 Google Docs ID
 API_KEY = "your_openai_api_key"  # 替换为你的 OpenAI API Key
+```
+
+## How to use
+
+```sh
+git clone https://github.com/AABBCCDKG/TopSecret.git
+pip install -r requirements.txt
 
