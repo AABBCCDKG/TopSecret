@@ -1,8 +1,6 @@
-# TopSecret
+# 配置环境
 
-
-## 配置环境
-###创建 Google Cloud 项目##
+## **1. 创建 Google Cloud 项目**
 1. **打开** [Google Cloud Console](https://cloud.google.com/) 并 **创建新项目**（或选择已有项目）。
 2. 进入 **"API 和服务"** > **"启用 API 和服务"**。
 3. 搜索并启用：
@@ -15,7 +13,7 @@
 
 ---
 
-## **🔑 2. 配置 Google Docs**
+## **2. 配置 Google Docs**
 1. **打开 Google Docs**，新建一个文档。
 2. **获取文档 ID**：
    - 复制 **Google Docs 链接**：
@@ -30,7 +28,7 @@
 
 ---
 
-## **🛠 3. 设置 API 密钥**
+## **3. 设置 API 密钥**
 ### **✅ 替换 `main.py` 变量**
 - **Google 凭证**：下载的 `.json` 文件路径
 - **Google Docs ID**：文档的 ID
