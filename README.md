@@ -44,4 +44,5 @@ API_KEY = "your_openai_api_key"  # 替换为你的 OpenAI API Key
 ```sh
 git clone https://github.com/AABBCCDKG/TopSecret.git
 pip install -r requirements.txt
+python main.py
 
