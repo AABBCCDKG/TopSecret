@@ -42,7 +42,6 @@ API_KEY = "your_openai_api_key"  # 替换为你的 OpenAI API Key
 ## How to use
 
 ```sh
-brew install tmux
 git clone https://github.com/AABBCCDKG/TopSecret.git
 pip install -r requirements.txt
 python main.py
